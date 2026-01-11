@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<resources>
+    <string name="app_name">MedRemind</string>
+    <string name="search_hint">Medikamente suchen...</string>
+    <string name="your_medications_title">Ihre Medikamente ( %1$s )</string>
+
+    <string name="notification_title_reminder">Medikamenten-Erinnerung: %1$s</string>
+    <string name="notification_body_take">Einnahme: %1$s</string>
+    <string name="notification_title_reminder_fallback">Medikamenten-Erinnerung</string>
+    <string name="notification_body_take_fallback">Es ist Zeit für Ihre Medikamente.</string>
+
+    <!-- Medication List Screen Section -->
+    <string name="item_selected">%1$d ausgewählt</string>
+    <string name="empty_list_title">Noch nichts zu sehen...</string>
+    <string name="empty_list_subtitle">Tippen Sie auf das '+', um Ihr erstes Medikament hinzuzufügen.</string>
+    <string name="empty_filter_title">Keine Medikamente gefunden</string>
+    <string name="empty_filter_subtitle">Passen Sie Ihre Filter an oder löschen Sie die Suche, um alle Medikamente zu sehen.</string>
+
+    <string name="take_prescription_photo">Rezept fotografieren</string>
+    <string name="enter_details">Details eingeben</string>
+
+    <!-- Medication List Screen Filter Section -->
+    <string name="filter_medications">Medikamente filtern</string>
+    <string name="filter_view">Ansicht</string>
+    <string name="filter_time_of_day">Tageszeit</string>
+    <string name="filter_frequency_and_type">Häufigkeit &amp; Typ</string>
+
+    <!-- Medication Form Screen Section -->
+    <string name="new_medication_title">Neu</string>
+    <string name="edit_medication_title">Bearbeiten</string>
+    <string name="required_fields_info">Pflichtfelder sind mit * markiert</string>
+
+    <!-- Medicine Information Section -->
+    <string name="section_title_medicine_info">Medikamenten-Informationen</string>
+    <string name="label_medicine_name">Medikamentenname *</string>
+    <string name="hint_medicine_name">z.B. Paracetamol</string>
+    <string name="label_dosage_strength">Dosierung</string>
+    <string name="hint_dosage">z.B. 500 mg</string>
+    <string name="label_medication_type">Medikamententyp *</string>
+    <string name="hint_medication_type">Typ auswählen</string>
+    <string name="label_frequency">Häufigkeit *</string>
+    <string name="hint_frequency">Häufigkeit auswählen</string>
+    <string name="label_time">Zeit %1$d *</string>
+    <string name="hint_select">Auswählen</string>
+    <string name="label_start_date">Startdatum *</string>
+    <string name="label_end_date">Enddatum</string>
+    <string name="label_notes">Notizen</string>
+    <string name="hint_notes">z.B. Nach dem Essen einnehmen</string>
+    <string name="label_main_details">Hauptdetails</string>
+
+    <string name="select_start_date">Startdatum auswählen</string>
+    <string name="select_end_date">Enddatum auswählen</string>
+    <string name="selected_date">Ausgewähltes Datum</string>
+
+    <!-- Other Information Section -->
+    <string name="section_title_other_info">Weitere Informationen</string>
+    <string name="label_hospital_name">Name des Krankenhauses</string>
+    <string name="hint_hospital_name">Name des Krankenhauses eingeben</string>
+    <string name="label_doctor_name">Name des Arztes</string>
+    <string name="hint_doctor_name">Name des Arztes eingeben</string>
+    <string name="label_hospital_address">Krankenhausadresse</string>
+    <string name="hint_hospital_address">Krankenhausadresse eingeben</string>
+
+    <!-- Upload Images Section -->
+    <string name="section_title_upload_images">Bilder hochladen</string>
+    <string name="upload_images_later_info">Sie können Bilder später hinzufügen</string>
+    <string name="upload_prescription">Rezept hochladen</string>
+    <string name="upload_medication">Medikament hochladen</string>
+    <string name="delete_prescription">Rezept löschen</string>
+    <string name="delete_medication">Medikament löschen</string>
+
+    <!-- Action Buttons -->
+    <string name="ai_prescription_scan">KI-Rezept-Scan</string>
+    <string name="btn_save_medication">Medikament speichern</string>
+    <string name="btn_save_all_medications">Alle speichern</string>
+    <string name="btn_add_another">Weiteres hinzufügen</string>
+    <string name="btn_ok">Ok</string>
+    <string name="btn_cancel">Abbrechen</string>
+    <string name="btn_dismiss">Schließen</string>
+
+    <!-- Medication form errors -->
+    <string name="error_medicine_name_required">Name ist erforderlich</string>
+    <string name="error_too_short">Zu kurz</string>
+    <string name="error_medication_type_required">Typ erforderlich</string>
+    <string name="error_frequency_required">Häufigkeit erforderlich</string>
+    <string name="error_start_date_required">Startdatum erforderlich</string>
+    <string name="error_required">Erforderlich</string>
+
+    <!-- Medication Item on Home Screen -->
+    <string name="next_dose_in">Nächste Dosis in</string>
+    <string name="less_then_a_minute">Weniger als einer Minute</string>
+    <string name="next_dose_after"></string>
+    <string name="duration_weeks_days">%1$sW %2$sd</string>
+    <string name="duration_weeks">%1$sW</string>
+    <string name="duration_days_hours">%1$sd %2$s Std.</string>
+    <string name="duration_hours_minutes">%1$s Std. %2$s Min.</string>
+    <string name="duration_minutes">%1$s Min.</string>
+    <string name="duration_overdue">Überfällig</string>
+
+    <string name="day_saturday">SAMSTAG</string>
+    <string name="day_sunday">SONNTAG</string>
+    <string name="day_monday">MONTAG</string>
+    <string name="day_tuesday">DIENSTAG</string>
+    <string name="day_wednesday">MITTWOCH</string>
+    <string name="day_thursday">DONNERSTAG</string>
+    <string name="day_friday">FREITAG</string>
+
+    <string name="month_january">Januar</string>
+    <string name="month_february">Februar</string>
+    <string name="month_march">März</string>
+    <string name="month_april">April</string>
+    <string name="month_may">Mai</string>
+    <string name="month_june">Juni</string>
+    <string name="month_july">Juli</string>
+    <string name="month_august">August</string>
+    <string name="month_september">September</string>
+    <string name="month_october">Oktober</string>
+    <string name="month_november">November</string>
+    <string name="month_december">Dezember</string>
+
+    <string name="month_jan_short">Jan.</string>
+    <string name="month_feb_short">Feb.</string>
+    <string name="month_mar_short">März</string>
+    <string name="month_apr_short">Apr.</string>
+    <string name="month_may_short">Mai</string>
+    <string name="month_jun_short">Juni</string>
+    <string name="month_jul_short">Juli</string>
+    <string name="month_aug_short">Aug.</string>
+    <string name="month_sep_short">Sept.</string>
+    <string name="month_oct_short">Okt.</string>
+    <string name="month_nov_short">Nov.</string>
+    <string name="month_dec_short">Dez.</string>
+    <string name="date_format_short">%2$s. %1$s %3$s</string>
+
+    <string name="freq_once_daily">Einmal täglich</string>
+    <string name="freq_twice_daily">Zweimal täglich</string>
+    <string name="freq_thrice_daily">Dreimal täglich</string>
+    <string name="freq_every_four_hours">Alle 4 Stunden</string>
+    <string name="freq_every_six_hours">Alle 6 Stunden</string>
+    <string name="freq_weekly">Wöchentlich</string>
+    <string name="freq_monthly">Monatlich</string>
+    <string name="freq_as_needed">Bei Bedarf</string>
+
+    <string name="med_type_tablet">Tablette</string>
+    <string name="med_type_capsule">Kapsel</string>
+    <string name="med_type_syrup">Saft/Sirup</string>
+    <string name="med_type_injection">Injektion</string>
+    <string name="med_type_drops">Tropfen</string>
+    <string name="med_type_inhaler">Inhalator</string>
+    <string name="med_type_powder">Pulver</string>
+    <string name="med_type_spray">Spray</string>
+    <string name="med_type_cream">Creme</string>
+    <string name="med_type_gel">Gel</string>
+    <string name="med_type_ointment">Salbe</string>
+    <string name="med_type_patch">Pflaster</string>
+    <string name="med_type_other">Andere</string>
+
+    <string name="timeslot_all">Alle</string>
+    <string name="timeslot_morning">Morgens</string>
+    <string name="timeslot_noon_afternoon">Mittags/Nachmittags</string>
+    <string name="timeslot_evening">Abends</string>
+    <string name="timeslot_night">Nachts</string>
+
+    <!-- Medication Details Screen Section -->
+    <string name="details_tab_info">Info</string>
+    <string name="details_tab_image">Bild</string>
+    <string name="details_label_name">Name</string>
+    <string name="details_label_dosage">Dosierung</string>
+    <string name="details_label_frequency">Häufigkeit</string>
+    <string name="details_label_start_date">Startdatum</string>
+    <string name="details_label_end_date">Enddatum</string>
+    <string name="details_label_type">Typ</string>
+    <string name="details_label_notes">Notizen</string>
+    <string name="details_value_not_set">Nicht festgelegt</string>
+    <string name="details_title_other_information">Weitere Informationen</string>
+    <string name="details_label_hospital_name">Krankenhaus</string>
+    <string name="details_label_doctor_name">Arzt</string>
+    <string name="details_label_hospital_address">Adresse</string>
+    <string name="image_tab_prescription">Rezept</string>
+    <string name="image_tab_medication">Medikament</string>
+    <string name="image_tab_prescription_description">Rezeptbild</string>
+    <string name="image_tab_medication_description">Medikamentenbild</string>
+    <string name="btn_upload">Hochladen</string>
+    <string name="btn_delete">Löschen</string>
+    <string name="no_photo_added_yet">Noch kein Foto hinzugefügt</string>
+    <string name="no_photo_available">Kein Foto verfügbar</string>
+
+    <!-- Delete Confirmation Dialog -->
+    <string name="delete_prescription_photo_dialog_title">Rezeptfoto löschen?</string>
+    <string name="delete_prescription_photo_dialog_message">Sind Sie sicher, dass Sie dieses Rezeptfoto löschen möchten? Dies kann nicht rückgängig gemacht werden.</string>
+    <string name="delete_medication_photo_dialog_title">Medikamentenfoto löschen?</string>
+    <string name="delete_medication_photo_dialog_message">Sind Sie sicher, dass Sie dieses Foto löschen möchten? Dies kann nicht rückgängig gemacht werden.</string>
+    <string name="delete_medication_dialog_title">%1$s löschen?</string>
+    <plurals name="delete_medication_dialog_message">
+        <item quantity="one">Sind Sie sicher, dass Sie dieses Medikament löschen möchten? Dies kann nicht rückgängig gemacht werden.</item>
+        <item quantity="other">Sind Sie sicher, dass Sie diese Medikamente löschen möchten? Dies kann nicht rückgängig gemacht werden.</item>
+    </plurals>
+    <string name="action_undo">Rückgängig</string>
+
+    <string name="leave_form_title">Formular verlassen?</string>
+    <string name="leave_form_message">Sind Sie sicher? Ihre Änderungen gehen verloren.</string>
+    <string name="cancel">Abbrechen</string>
+    <string name="leave">Verlassen</string>
+
+    <plurals name="medication_deleted_success">
+        <item quantity="one">Medikament erfolgreich gelöscht.</item>
+        <item quantity="other">Medikamente erfolgreich gelöscht.</item>
+    </plurals>
+
+    <plurals name="failed_to_delete_medication">
+        <item quantity="one">Medikament konnte nicht gelöscht werden.</item>
+        <item quantity="other">Medikamente konnten nicht gelöscht werden.</item>
+    </plurals>
+
+    <!-- Reminders disabled dialog -->
+    <plurals name="this_medication">
+        <item quantity="one">dieses Medikament</item>
+        <item quantity="other">diese %1$d Medikamente</item>
+    </plurals>
+    <string name="reminders_disabled_title">Erinnerungen deaktiviert</string>
+    <string name="reminders_disabled_message">Erinnerungen benötigen Zugriff auf Benachrichtigungen. Bitte in den Einstellungen aktivieren. %1$s ohne Erinnerung speichern?</string>
+    <string name="save_anyway">Trotzdem speichern</string>
+
+    <!-- Settings Screen -->
+    <string name="settings_title">Einstellungen</string>
+    <string name="settings_section_appearance">Erscheinungsbild</string>
+    <string name="settings_appearance_system">System</string>
+    <string name="settings_appearance_dark">Dunkel</string>
+    <string name="settings_appearance_light">Hell</string>
+    <string name="settings_section_contrast">Kontrast</string>
+    <string name="settings_contrast_normal">Normal</string>
+    <string name="settings_contrast_medium">Mittel</string>
+    <string name="settings_contrast_high">Hoch</string>
+    <string name="settings_section_language">Sprache</string>
+    <string name="language_english">English</string>
+    <string name="language_bangla">বাংলা</string>
+    <string name="language_german">Deutsch</string>
+    <string name="settings_section_ai_analysis_language">KI-Analysesprache</string>
+    <string name="language_match_prescription">An Rezept anpassen</string>
+    <string name="language_device_language">Gerätesprache</string>
+
+    <!-- Icon content descriptions for accessibility -->
+    <string name="icon_app_description">App-Logo (Pille)</string>
+    <string name="icon_search_description">Suche</string>
+    <string name="icon_no_photo_description">Noch kein Foto</string>
+    <string name="icon_reminder_active_description">Erinnerung aktiv</string>
+    <string name="icon_toggle_dropdown_menu_description">Menü umschalten</string>
+    <string name="icon_reminder_bell_description">Erinnerungsglocke</string>
+    <string name="selected">Ausgewählt</string>
+
+    <!-- Icon content descriptions for actionable icons (inside buttons/FABs) -->
+    <string name="btn_settings_description">Einstellungen öffnen</string>
+    <string name="btn_clear_search_text_description">Suche löschen</string>
+    <string name="btn_filter_description">Filter öffnen</string>
+    <string name="btn_select_filter_option_description">Filteroption wählen</string>
+    <string name="btn_add_medication_description">Medikament hinzufügen</string>
+    <string name="btn_add_medication_menu_description">Hinzufügen-Menü</string>
+    <string name="fab_expand_medication_menu_description">Menü erweitern</string>
+    <string name="fab_close_medication_menu_description">Menü schließen</string>
+    <string name="btn_take_prescription_photo_description">Rezept fotografieren</string>
+    <string name="btn_upload_prescription_image_description">Rezeptbild hochladen</string>
+    <string name="btn_enter_medication_details_description">Details eingeben</string>
+    <string name="btn_back_description">Zurück</string>
+    <string name="btn_previous_medication_description">Vorheriges Medikament</string>
+    <string name="btn_next_medication_description">Nächstes Medikament</string>
+    <string name="btn_more_options_description">Weitere Optionen</string>
+    <string name="btn_edit_medication_description">Medikament bearbeiten</string>
+    <string name="btn_delete_medication_description">Medikament löschen</string>
+    <string name="btn_delete_prescription_image_description">Rezeptbild löschen</string>
+    <string name="btn_delete_medication_image_description">Medikamentenbild löschen</string>
+    <string name="btn_upload_medication_image_description">Medikamentenbild hochladen</string>
+    <string name="btn_switch_system_theme_description">Zum System-Design wechseln</string>
+    <string name="btn_switch_dark_theme_description">Zum dunklen Design wechseln</string>
+    <string name="btn_switch_light_theme_description">Zum hellen Design wechseln</string>
+    <string name="btn_play_reminder_tone_description">Erinnerungston abspielen</string>
+    <string name="btn_stop_reminder_tone_description">Erinnerungston stoppen</string>
+    <string name="btn_mute_reminder_tone_description">Stummschalten</string>
+    <string name="btn_back_to_home_description">Zurück zur Startseite</string>
+    <string name="btn_select_all_description">Alle auswählen</string>
+    <string name="btn_deselect_all_description">Auswahl aufheben</string>
+
+    <!-- AI Prescription Scan Messages -->
+    <string name="ai_prescription_scan_message_1">Medikamenten-Infos werden extrahiert...</string>
+    <string name="ai_prescription_scan_message_2">Rezeptdetails werden analysiert...</string>
+    <string name="ai_prescription_scan_message_3">Das dauert länger als gewöhnlich...</string>
+    <string name="ai_prescription_scan_message_4">Fast fertig, Details werden abgeschlossen...</string>
+
+    <!-- Error messages -->
+    <string name="error_disk_full">Speicher voll. Bitte Platz freigeben.</string>
+    <string name="error_unknown">Unerwarteter Fehler. Bitte erneut versuchen.</string>
+    <string name="error_request_timeout">Zeitüberschreitung. Bitte später versuchen.</string>
+    <string name="error_no_internet">Keine Internetverbindung.</string>
+    <string name="error_too_many_requests">Zu viele Anfragen. Bitte später versuchen.</string>
+    <string name="error_serialization">Daten konnten nicht verarbeitet werden.</string>
+
+    <string name="failed_to_load">Laden fehlgeschlagen</string>
+    <string name="failed_to_load_medication">Medikament konnte nicht geladen werden</string>
+    <string name="failed_to_load_reminder_details">Details konnten nicht geladen werden</string>
+
+    <string name="error_failed_save_image">Bild konnte nicht gespeichert werden.</string>
+    <string name="msg_prescription_detected">Rezept erkannt. Bitte überprüfen Sie die extrahierten Details.</string>
+    <string name="error_image_blurry">Das Bild ist unscharf oder unklar. Bitte versuchen Sie es mit einem anderen Bild.</string>
+    <string name="error_not_a_prescription">Das Bild scheint kein Rezept zu sein.</string>
+    <string name="error_analysis_failed">Fehler bei der Analyse des Rezepts. Bitte versuchen Sie es erneut.</string>
+</resources>

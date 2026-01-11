@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<resources>
+    <string name="app_name">MedRemind</string>
+    <string name="search_hint">ঔষধ খুঁজুন...</string>
+    <string name="your_medications_title">আপনার ঔষধ ( %1$s )</string>
+
+    <string name="notification_title_reminder">ওষুধের রিমাইন্ডার: %1$s</string>
+    <string name="notification_body_take">সেবন করুন: %1$s</string>
+    <string name="notification_title_reminder_fallback">ওষুধের রিমাইন্ডার</string>
+    <string name="notification_body_take_fallback">আপনার ওষুধ খাওয়ার সময় হয়েছে।</string>
+
+    <!-- Medication List Screen Section -->
+    <string name="item_selected">%1$dটি নির্বাচিত</string>
+    <string name="empty_list_title">কোনো ঔষধ নেই</string>
+    <string name="empty_list_subtitle">নতুন ঔষধ যোগ করতে '+' বাটনে ট্যাপ করুন।</string>
+    <string name="empty_filter_title">কিছু পাওয়া যায়নি</string>
+    <string name="empty_filter_subtitle">সব ঔষধ দেখতে ফিল্টার পরিবর্তন বা সার্চ ক্লিয়ার করুন।</string>
+    
+    <string name="take_prescription_photo">প্রেসক্রিপশন ফটো</string>
+    <string name="enter_details">তথ্য দিন</string>
+    
+    <!-- Medication List Screen Filter Section -->
+    <string name="filter_medications">ফিল্টার করুন</string>
+    <string name="filter_view">ভিউ</string>
+    <string name="filter_time_of_day">দিনের সময়</string>
+    <string name="filter_frequency_and_type">ধরণ ও ফ্রিকোয়েন্সি</string>
+
+    <!-- Medication Form Screen Section -->
+    <string name="new_medication_title">নতুন</string>
+    <string name="edit_medication_title">এডিট</string>
+    <string name="required_fields_info">* চিহ্নিত ঘরগুলো অবশ্যই পূরণ করতে হবে</string>
+
+    <!-- Medicine Information Section -->
+    <string name="section_title_medicine_info">ঔষধের তথ্য</string>
+    <string name="label_medicine_name">ঔষধের নাম *</string>
+    <string name="hint_medicine_name">যেমন: নাপা</string>
+    <string name="label_dosage_strength">ডোজের পরিমাণ</string>
+    <string name="hint_dosage">যেমন: ৫০০ মি.গ্রা.</string>
+    <string name="label_medication_type">ঔষধের ধরণ *</string>
+    <string name="hint_medication_type">ঔষধের ধরণ নির্বাচন করুন</string>
+    <string name="label_frequency">ফ্রিকোয়েন্সি *</string>
+    <string name="hint_frequency">ফ্রিকোয়েন্সি নির্বাচন করুন</string>
+    <string name="label_time">সময় %1$d *</string>
+    <string name="hint_select">নির্বাচন করুন</string>
+    <string name="label_start_date">শুরুর তারিখ *</string>
+    <string name="label_end_date">শেষের তারিখ</string>
+    <string name="label_notes">নোটস</string>
+    <string name="hint_notes">যেমন: খাবারের পর খাবেন</string>
+    <string name="label_main_details">মূল তথ্য</string>
+
+    <string name="select_start_date">শুরুর তারিখ নির্বাচন করুন</string>
+    <string name="select_end_date">শেষের তারিখ নির্বাচন করুন</string>
+    <string name="selected_date">নির্বাচিত তারিখ</string>
+
+    <!-- Other Information Section -->
+    <string name="section_title_other_info">অন্যান্য তথ্য</string>
+    <string name="label_hospital_name">হাসপাতালের নাম</string>
+    <string name="hint_hospital_name">হাসপাতালের নাম লিখুন</string>
+    <string name="label_doctor_name">ডাক্তারের নাম</string>
+    <string name="hint_doctor_name">ডাক্তারের নাম লিখুন</string>
+    <string name="label_hospital_address">হাসপাতালের ঠিকানা</string>
+    <string name="hint_hospital_address">হাসপাতালের ঠিকানা লিখুন</string>
+
+    <!-- Upload Images Section -->
+    <string name="section_title_upload_images">ছবি আপলোড</string>
+    <string name="upload_images_later_info">আপনি ছবি পরেও আপলোড করতে পারবেন</string>
+    <string name="upload_prescription">প্রেসক্রিপশন আপলোড</string>
+    <string name="upload_medication">ঔষধের ছবি আপলোড</string>
+    <string name="delete_prescription">প্রেসক্রিপশন মুছুন</string>
+    <string name="delete_medication">ঔষধের ছবি মুছুন</string>
+
+    <!-- Action Buttons -->
+    <string name="ai_prescription_scan">এআই প্রেসক্রিপশন স্ক্যান</string>
+    <string name="btn_save_medication">ঔষধ সেভ করুন</string>
+    <string name="btn_save_all_medications">সব ঔষধ সেভ করুন</string>
+    <string name="btn_add_another">আরও যোগ করুন</string>
+    <string name="btn_ok">ঠিক আছে</string>
+    <string name="btn_cancel">বাতিল</string>
+    <string name="btn_dismiss">সরিয়ে ফেলুন</string>
+    
+    <!-- Medication form errors -->
+    <string name="error_medicine_name_required">ঔষধের নাম প্রয়োজন</string>
+    <string name="error_too_short">খুবই ছোট</string>
+    <string name="error_medication_type_required">ঔষধের ধরণ প্রয়োজন</string>
+    <string name="error_frequency_required">ফ্রিকোয়েন্সি প্রয়োজন</string>
+    <string name="error_start_date_required">শুরুর তারিখ প্রয়োজন</string>
+    <string name="error_required">প্রয়োজনীয়</string>
+
+    <!-- Medication Item on Home Screen -->
+    <string name="next_dose_in">পরবর্তী ডোজ</string>
+    <string name="less_then_a_minute">এক মিনিটের কম সময়ের মধ্যে</string>
+    <string name="next_dose_after">পর</string>
+    <string name="duration_weeks_days">%1$sস %2$sদি</string>
+    <string name="duration_weeks">%1$sস</string>
+    <string name="duration_days_hours">%1$sদি %2$sঘ</string>
+    <string name="duration_hours_minutes">%1$sঘ %2$sমি</string>
+    <string name="duration_minutes">%1$sমি</string>
+    <string name="duration_overdue">সময় পার হয়ে গেছে</string>
+
+    <string name="day_saturday">শনিবার</string>
+    <string name="day_sunday">রবিবার</string>
+    <string name="day_monday">সোমবার</string>
+    <string name="day_tuesday">মঙ্গলবার</string>
+    <string name="day_wednesday">বুধবার</string>
+    <string name="day_thursday">বৃহস্পতিবার</string>
+    <string name="day_friday">শুক্রবার</string>
+
+    <string name="month_january">জানুয়ারি</string>
+    <string name="month_february">ফেব্রুয়ারি</string>
+    <string name="month_march">মার্চ</string>
+    <string name="month_april">এপ্রিল</string>
+    <string name="month_may">মে</string>
+    <string name="month_june">জুন</string>
+    <string name="month_july">জুলাই</string>
+    <string name="month_august">আগস্ট</string>
+    <string name="month_september">সেপ্টেম্বর</string>
+    <string name="month_october">অক্টোবর</string>
+    <string name="month_november">নভেম্বর</string>
+    <string name="month_december">ডিসেম্বর</string>
+
+    <string name="month_jan_short">জানু.</string>
+    <string name="month_feb_short">ফেব্রু.</string>
+    <string name="month_mar_short">মার্চ</string>
+    <string name="month_apr_short">এপ্রিল</string>
+    <string name="month_may_short">মে</string>
+    <string name="month_jun_short">জুন</string>
+    <string name="month_jul_short">জুলাই</string>
+    <string name="month_aug_short">আগস্ট</string>
+    <string name="month_sep_short">সেপ্টে.</string>
+    <string name="month_oct_short">অক্টো.</string>
+    <string name="month_nov_short">নভে.</string>
+    <string name="month_dec_short">ডিসে.</string>
+    <string name="date_format_short">%2$s %1$s, %3$s</string>
+
+    <string name="freq_once_daily">দিনে একবার</string>
+    <string name="freq_twice_daily">দিনে দুইবার</string>
+    <string name="freq_thrice_daily">দিনে তিনবার</string>
+    <string name="freq_every_four_hours">প্রতি ৪ ঘণ্টা অন্তর</string>
+    <string name="freq_every_six_hours">প্রতি ৬ ঘণ্টা অন্তর</string>
+    <string name="freq_weekly">সাপ্তাহিক</string>
+    <string name="freq_monthly">মাসিক</string>
+    <string name="freq_as_needed">প্রয়োজন অনুযায়ী</string>
+
+    <string name="med_type_tablet">ট্যাবলেট</string>
+    <string name="med_type_capsule">ক্যাপসুল</string>
+    <string name="med_type_syrup">সিরাপ</string>
+    <string name="med_type_injection">ইনজেকশন</string>
+    <string name="med_type_drops">ড্রপস</string>
+    <string name="med_type_inhaler">ইনহেলার</string>
+    <string name="med_type_powder">পাউডার</string>
+    <string name="med_type_spray">স্প্রে</string>
+    <string name="med_type_cream">ক্রিম</string>
+    <string name="med_type_gel">জেল</string>
+    <string name="med_type_ointment">মলম</string>
+    <string name="med_type_patch">প্যাচ</string>
+    <string name="med_type_other">অন্যান্য</string>
+
+    <string name="timeslot_all">সবগুলো</string>
+    <string name="timeslot_morning">সকাল</string>
+    <string name="timeslot_noon_afternoon">দুপুর/বিকেল</string>
+    <string name="timeslot_evening">সন্ধ্যা</string>
+    <string name="timeslot_night">রাত</string>
+
+    <!-- Medication Details Screen Section -->
+    <string name="details_tab_info">তথ্য</string>
+    <string name="details_tab_image">ছবি</string>
+    <string name="details_label_name">নাম</string>
+    <string name="details_label_dosage">ডোজ</string>
+    <string name="details_label_frequency">ফ্রিকোয়েন্সি</string>
+    <string name="details_label_start_date">শুরুর তারিখ</string>
+    <string name="details_label_end_date">শেষের তারিখ</string>
+    <string name="details_label_type">ধরণ</string>
+    <string name="details_label_notes">নোটস</string>
+    <string name="details_value_not_set">দেওয়া নেই</string>
+    <string name="details_title_other_information">অন্যান্য তথ্য</string>
+    <string name="details_label_hospital_name">হাসপাতালের নাম</string>
+    <string name="details_label_doctor_name">ডাক্তারের নাম</string>
+    <string name="details_label_hospital_address">হাসপাতালের ঠিকানা</string>
+    <string name="image_tab_prescription">প্রেসক্রিপশন</string>
+    <string name="image_tab_medication">ঔষধ</string>
+    <string name="image_tab_prescription_description">প্রেসক্রিপশনের ছবি</string>
+    <string name="image_tab_medication_description">ঔষধের ছবি</string>
+    <string name="btn_upload">আপলোড</string>
+    <string name="btn_delete">মুছুন</string>
+    <string name="no_photo_added_yet">এখনও কোনো ছবি যোগ করা হয়নি</string>
+    <string name="no_photo_available">কোনো ছবি পাওয়া যায়নি</string>
+    
+    <!-- Delete Confirmation Dialog -->
+    <string name="delete_prescription_photo_dialog_title">প্রেসক্রিপশন ছবি মুছবেন?</string>
+    <string name="delete_prescription_photo_dialog_message">আপনি কি নিশ্চিতভাবে এই প্রেসক্রিপশন ছবিটি মুছে ফেলতে চান? এটি আর ফিরিয়ে আনা যাবে না।</string>
+    <string name="delete_medication_photo_dialog_title">ঔষধের ছবি মুছবেন?</string>
+    <string name="delete_medication_photo_dialog_message">আপনি কি নিশ্চিতভাবে এই ঔষধের ছবিটি মুছে ফেলতে চান? এটি আর ফিরিয়ে আনা যাবে না।</string>
+    <string name="delete_medication_dialog_title">%1$s মুছবেন?</string>
+    <plurals name="delete_medication_dialog_message">
+        <item quantity="one">আপনি কি নিশ্চিতভাবে এই ঔষধটি মুছে ফেলতে চান? এটি আর ফিরিয়ে আনা যাবে না।</item>
+        <item quantity="other">আপনি কি নিশ্চিতভাবে এই ঔষধগুলো মুছে ফেলতে চান? এটি আর ফিরিয়ে আনা যাবে না।</item>
+    </plurals>
+    <string name="action_undo">ফিরিয়ে আনুন</string>
+
+    <string name="leave_form_title">ফর্ম থেকে বের হবেন?</string>
+    <string name="leave_form_message">আপনি কি নিশ্চিতভাবে এই ফর্ম থেকে বের হতে চান? আপনার পরিবর্তনগুলো মুছে যাবে।</string>
+    <string name="cancel">বাতিল</string>
+    <string name="leave">বেরিয়ে যান</string>
+
+    <plurals name="medication_deleted_success">
+        <item quantity="one">ওষুধটি সফলভাবে মুছে ফেলা হয়েছে।</item>
+        <item quantity="other">ওষুধগুলো সফলভাবে মুছে ফেলা হয়েছে।</item>
+    </plurals>
+
+    <plurals name="failed_to_delete_medication">
+        <item quantity="one">ওষুধটি মুছে ফেলা সম্ভব হয়নি।</item>
+        <item quantity="other">ওষুধগুলো মুছে ফেলা সম্ভব হয়নি।</item>
+    </plurals>
+
+    <!-- Reminders disabled dialog -->
+    <plurals name="this_medication">
+        <item quantity="one">এই ঔষধটি</item>
+        <item quantity="other">এই %1$dটি ঔষধ</item>
+    </plurals>
+    <string name="reminders_disabled_title">রিমাইন্ডার বন্ধ আছে</string>
+    <string name="reminders_disabled_message">রিমাইন্ডারের জন্য নোটিফিকেশন পারমিশন প্রয়োজন। আপনাকে সেটিংস থেকে এটি চালু করতে হবে। অ্যালার্ট ছাড়াই %1$s সেভ করবেন?</string>
+    <string name="save_anyway">এভাবেই সেভ করুন</string>
+
+    <!-- Settings Screen -->
+    <string name="settings_title">সেটিংস</string>
+    <string name="settings_section_appearance">থিম</string>
+    <string name="settings_appearance_system">সিস্টেম</string>
+    <string name="settings_appearance_dark">ডার্ক</string>
+    <string name="settings_appearance_light">লাইট</string>
+    <string name="settings_section_contrast">কন্ট্রাস্ট</string>
+    <string name="settings_contrast_normal">নরমাল</string>
+    <string name="settings_contrast_medium">মিডিয়াম</string>
+    <string name="settings_contrast_high">হাই</string>
+    <string name="settings_section_language">ভাষা</string>
+    <string name="language_english">English</string>
+    <string name="language_bangla">বাংলা</string>
+    <string name="language_german">Deutsch</string>
+    <string name="settings_section_ai_analysis_language">এআই বিশ্লেষণের ভাষা</string>
+    <string name="language_match_prescription">প্রেসক্রিপশনের সাথে মিল রাখুন</string>
+    <string name="language_device_language">ডিভাইসের ভাষা</string>
+
+    <!-- Icon content descriptions for accessibility -->
+    <string name="icon_app_description">অ্যাপের লোগো</string>
+    <string name="icon_search_description">সার্চ</string>
+    <string name="icon_no_photo_description">কোনো ছবি দেওয়া নেই</string>
+    <string name="icon_reminder_active_description">সক্রিয় রিমাইন্ডার</string>
+    <string name="icon_toggle_dropdown_menu_description">মেনু ওপেন করুন</string>
+    <string name="icon_reminder_bell_description">রিমাইন্ডার বেল</string>
+    <string name="selected">নির্বাচিত</string>
+
+    <!-- Icon content descriptions for actionable icons (inside buttons/FABs) -->
+    <string name="btn_settings_description">সেটিংস ওপেন করুন</string>
+    <string name="btn_clear_search_text_description">সার্চ টেক্সট মুছুন</string>
+    <string name="btn_filter_description">ঔষধ ফিল্টার করুন</string>
+    <string name="btn_select_filter_option_description">ফিল্টার অপশন নির্বাচন করুন</string>
+    <string name="btn_add_medication_description">ঔষধ যোগ করুন</string>
+    <string name="btn_add_medication_menu_description">ঔষধ যোগ করার মেনু</string>
+    <string name="fab_expand_medication_menu_description">মেনু বড় করুন</string>
+    <string name="fab_close_medication_menu_description">মেনু বন্ধ করুন</string>
+    <string name="btn_take_prescription_photo_description">প্রেসক্রিপশনের ছবি তুলুন</string>
+    <string name="btn_upload_prescription_image_description">প্রেসক্রিপশন আপলোড করুন</string>
+    <string name="btn_enter_medication_details_description">বিস্তারিত তথ্য দিন</string>
+    <string name="btn_back_description">পেছনে যান</string>
+    <string name="btn_previous_medication_description">আগের ঔষধ</string>
+    <string name="btn_next_medication_description">পরের ঔষধ</string>
+    <string name="btn_more_options_description">আরও অপশন</string>
+    <string name="btn_edit_medication_description">এডিট করুন</string>
+    <string name="btn_delete_medication_description">মুছে ফেলুন</string>
+    <string name="btn_delete_prescription_image_description">প্রেসক্রিপশন মুছুন</string>
+    <string name="btn_delete_medication_image_description">ঔষধের ছবি মুছুন</string>
+    <string name="btn_upload_medication_image_description">ঔষধের ছবি আপলোড করুন</string>
+    <string name="btn_switch_system_theme_description">সিস্টেম থিম ব্যবহার করুন</string>
+    <string name="btn_switch_dark_theme_description">ডার্ক থিম ব্যবহার করুন</string>
+    <string name="btn_switch_light_theme_description">লাইট থিম ব্যবহার করুন</string>
+    <string name="btn_play_reminder_tone_description">রিমাইন্ডার টোন বাজান</string>
+    <string name="btn_stop_reminder_tone_description">রিমাইন্ডার টোন বন্ধ করুন</string>
+    <string name="btn_mute_reminder_tone_description">টোন মিউট করুন</string>
+    <string name="btn_back_to_home_description">হোমে ফিরে যান</string>
+    <string name="btn_select_all_description">সব ঔষধ সিলেক্ট করুন</string>
+    <string name="btn_deselect_all_description">সব সিলেকশন মুছুন</string>
+    
+    <!-- AI Prescription Scan Messages -->
+    <string name="ai_prescription_scan_message_1">ঔষধের তথ্য সংগ্রহ করা হচ্ছে...</string>
+    <string name="ai_prescription_scan_message_2">প্রেসক্রিপশন বিশ্লেষণ করা হচ্ছে...</string>
+    <string name="ai_prescription_scan_message_3">স্বাভাবিকের চেয়ে একটু বেশি সময় লাগছে...</string>
+    <string name="ai_prescription_scan_message_4">প্রায় শেষ, তথ্যগুলো সাজানো হচ্ছে...</string>
+
+    <!-- Error messages -->
+    <string name="error_disk_full">স্টোরেজ পূর্ণ। চালিয়ে যেতে দয়া করে কিছু জায়গা খালি করুন।</string>
+    <string name="error_unknown">একটি সমস্যা হয়েছে। আবার চেষ্টা করুন।</string>
+    <string name="error_request_timeout">সার্ভার থেকে উত্তর পাওয়া যাচ্ছে না। পরে চেষ্টা করুন।</string>
+    <string name="error_no_internet">ইন্টারনেট সংযোগ নেই। আপনার কানেকশন চেক করুন।</string>
+    <string name="error_too_many_requests">অতিরিক্ত রিকোয়েস্ট পাঠানো হয়েছে। পরে চেষ্টা করুন।</string>
+    <string name="error_serialization">তথ্য প্রসেস করতে ব্যর্থ। আবার চেষ্টা করুন।</string>
+
+    <string name="failed_to_load">লোড করতে ব্যর্থ</string>
+    <string name="failed_to_load_medication">ঔষধ লোড করা যায়নি</string>
+    <string name="failed_to_load_reminder_details">রিমাইন্ডারের তথ্য পাওয়া যায়নি</string>
+
+    <string name="error_failed_save_image">ছবি সংরক্ষণ করতে ব্যর্থ হয়েছে।</string>
+    <string name="msg_prescription_detected">প্রেসক্রিপশন সনাক্ত করা হয়েছে। দয়া করে যাচাইকৃত তথ্যগুলো দেখে নিন।</string>
+    <string name="error_image_blurry">ছবিটি ঝাপসা বা অস্পষ্ট। দয়া করে অন্য একটি ছবি চেষ্টা করুন।</string>
+    <string name="error_not_a_prescription">ছবিটি প্রেসক্রিপশন বলে মনে হচ্ছে না।</string>
+    <string name="error_analysis_failed">প্রেসক্রিপশনটি বিশ্লেষণ করার সময় সমস্যা হয়েছে। দয়া করে আবার চেষ্টা করুন।</string>
+</resources>

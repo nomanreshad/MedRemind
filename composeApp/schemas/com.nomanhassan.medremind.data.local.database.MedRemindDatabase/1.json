@@ -1,0 +1,106 @@
+{
+  "formatVersion": 1,
+  "database": {
+    "version": 1,
+    "identityHash": "2e7993b48ae2f84e035c9a266b775f77",
+    "entities": [
+      {
+        "tableName": "medications",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`medicationId` INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, `medicineName` TEXT NOT NULL, `dosageStrength` TEXT, `medicationType` TEXT, `frequency` TEXT NOT NULL, `timesEpochMillis` TEXT NOT NULL, `startDate` INTEGER NOT NULL, `endDate` INTEGER, `notes` TEXT, `hospitalName` TEXT, `doctorName` TEXT, `hospitalAddress` TEXT, `prescriptionImagePath` TEXT, `medicationImagePath` TEXT, `isActive` INTEGER NOT NULL)",
+        "fields": [
+          {
+            "fieldPath": "medicationId",
+            "columnName": "medicationId",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "medicineName",
+            "columnName": "medicineName",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "dosageStrength",
+            "columnName": "dosageStrength",
+            "affinity": "TEXT"
+          },
+          {
+            "fieldPath": "medicationType",
+            "columnName": "medicationType",
+            "affinity": "TEXT"
+          },
+          {
+            "fieldPath": "frequency",
+            "columnName": "frequency",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "timesEpochMillis",
+            "columnName": "timesEpochMillis",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "startDate",
+            "columnName": "startDate",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "endDate",
+            "columnName": "endDate",
+            "affinity": "INTEGER"
+          },
+          {
+            "fieldPath": "notes",
+            "columnName": "notes",
+            "affinity": "TEXT"
+          },
+          {
+            "fieldPath": "hospitalName",
+            "columnName": "hospitalName",
+            "affinity": "TEXT"
+          },
+          {
+            "fieldPath": "doctorName",
+            "columnName": "doctorName",
+            "affinity": "TEXT"
+          },
+          {
+            "fieldPath": "hospitalAddress",
+            "columnName": "hospitalAddress",
+            "affinity": "TEXT"
+          },
+          {
+            "fieldPath": "prescriptionImagePath",
+            "columnName": "prescriptionImagePath",
+            "affinity": "TEXT"
+          },
+          {
+            "fieldPath": "medicationImagePath",
+            "columnName": "medicationImagePath",
+            "affinity": "TEXT"
+          },
+          {
+            "fieldPath": "isActive",
+            "columnName": "isActive",
+            "affinity": "INTEGER",
+            "notNull": true
+          }
+        ],
+        "primaryKey": {
+          "autoGenerate": true,
+          "columnNames": [
+            "medicationId"
+          ]
+        }
+      }
+    ],
+    "setupQueries": [
+      "CREATE TABLE IF NOT EXISTS room_master_table (id INTEGER PRIMARY KEY,identity_hash TEXT)",
+      "INSERT OR REPLACE INTO room_master_table (id,identity_hash) VALUES(42, '2e7993b48ae2f84e035c9a266b775f77')"
+    ]
+  }
+}

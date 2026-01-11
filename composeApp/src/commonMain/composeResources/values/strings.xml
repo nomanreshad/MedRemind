@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<resources>
+    <string name="app_name">MedRemind</string>
+    <string name="search_hint">Search your medications...</string>
+    <string name="your_medications_title">Your Medications ( %1$s )</string>
+
+    <string name="notification_title_reminder">Medication Reminder: %1$s</string>
+    <string name="notification_body_take">Take: %1$s</string>
+    <string name="notification_title_reminder_fallback">Medication Reminder</string>
+    <string name="notification_body_take_fallback">It's time to take your meds.</string>
+
+    <!-- Medication List Screen Section -->
+    <string name="item_selected">%1$d Selected</string>
+    <string name="empty_list_title">Nothing to see here... yet</string>
+    <string name="empty_list_subtitle">Tap the '+' button to add your first medication.</string>
+    <string name="empty_filter_title">No medications match</string>
+    <string name="empty_filter_subtitle">Try adjusting your filters or clearing your search to see all your medications.</string>
+
+    <string name="take_prescription_photo">Take Prescription Photo</string>
+    <string name="enter_details">Enter Details</string>
+    
+    <!-- Medication List Screen Filter Section -->
+    <string name="filter_medications">Filter Medications</string>
+    <string name="filter_view">View</string>
+    <string name="filter_time_of_day">Time of Day</string>
+    <string name="filter_frequency_and_type">Frequency &amp; Type</string>
+
+    <!-- Medication Form Screen Section -->
+    <string name="new_medication_title">New</string>
+    <string name="edit_medication_title">Edit</string>
+    <string name="required_fields_info">Required fields are marked with *</string>
+
+    <!-- Medicine Information Section -->
+    <string name="section_title_medicine_info">Medication Information</string>
+    <string name="label_medicine_name">Medicine Name *</string>
+    <string name="hint_medicine_name">e.g., Paracetamol</string>
+    <string name="label_dosage_strength">Dosage Strength</string>
+    <string name="hint_dosage">e.g., 500 mg</string>
+    <string name="label_medication_type">Medication Type *</string>
+    <string name="hint_medication_type">Select Medication Type</string>
+    <string name="label_frequency">Frequency *</string>
+    <string name="hint_frequency">Select Frequency</string>
+    <string name="label_time">Time %1$d *</string>
+    <string name="hint_select">Select</string>
+    <string name="label_start_date">Start Date *</string>
+    <string name="label_end_date">End Date</string>
+    <string name="label_notes">Notes</string>
+    <string name="hint_notes">e.g., Take after meals</string>
+    <string name="label_main_details">Main Details</string>
+
+    <string name="select_start_date">Select start date</string>
+    <string name="select_end_date">Select end date</string>
+    <string name="selected_date">Selected date</string>
+
+    <!-- Other Information Section -->
+    <string name="section_title_other_info">Other Information</string>
+    <string name="label_hospital_name">Hospital Name</string>
+    <string name="hint_hospital_name">Enter hospital name</string>
+    <string name="label_doctor_name">Doctor Name</string>
+    <string name="hint_doctor_name">Enter doctor's name</string>
+    <string name="label_hospital_address">Hospital Address</string>
+    <string name="hint_hospital_address">Enter hospital address</string>
+
+    <!-- Upload Images Section -->
+    <string name="section_title_upload_images">Upload Images</string>
+    <string name="upload_images_later_info">You can upload images later</string>
+    <string name="upload_prescription">Upload Prescription</string>
+    <string name="upload_medication">Upload Medication</string>
+    <string name="delete_prescription">Delete Prescription</string>
+    <string name="delete_medication">Delete Medication</string>
+
+    <!-- Action Buttons -->
+    <string name="ai_prescription_scan">AI Prescription Scan</string>
+    <string name="btn_save_medication">Save Medication</string>
+    <string name="btn_save_all_medications">Save All Medications</string>
+    <string name="btn_add_another">Add Another</string>
+    <string name="btn_ok">Ok</string>
+    <string name="btn_cancel">Cancel</string>
+    <string name="btn_dismiss">Dismiss</string>
+    
+    <!-- Medication form errors -->
+    <string name="error_medicine_name_required">Medicine Name is required</string>
+    <string name="error_too_short">Too short</string>
+    <string name="error_medication_type_required">Medication Type is required</string>
+    <string name="error_frequency_required">Frequency is required</string>
+    <string name="error_start_date_required">Start Date is required</string>
+    <string name="error_required">Required</string>
+
+    <!-- Medication Item on Home Screen -->
+    <string name="next_dose_in">Next dose in</string>
+    <string name="less_then_a_minute">less then a minute</string>
+    <string name="next_dose_after"></string>
+    <string name="duration_weeks_days">%1$sw %2$sd</string>
+    <string name="duration_weeks">%1$sw</string>
+    <string name="duration_days_hours">%1$sd %2$sh</string>
+    <string name="duration_hours_minutes">%1$sh %2$sm</string>
+    <string name="duration_minutes">%1$sm</string>
+    <string name="duration_overdue">Overdue</string>
+    
+    <string name="day_saturday">SATURDAY</string>
+    <string name="day_sunday">SUNDAY</string>
+    <string name="day_monday">MONDAY</string>
+    <string name="day_tuesday">TUESDAY</string>
+    <string name="day_wednesday">WEDNESDAY</string>
+    <string name="day_thursday">THURSDAY</string>
+    <string name="day_friday">FRIDAY</string>
+    
+    <string name="month_january">January</string>
+    <string name="month_february">February</string>
+    <string name="month_march">March</string>
+    <string name="month_april">April</string>
+    <string name="month_may">May</string>
+    <string name="month_june">June</string>
+    <string name="month_july">July</string>
+    <string name="month_august">August</string>
+    <string name="month_september">September</string>
+    <string name="month_october">October</string>
+    <string name="month_november">November</string>
+    <string name="month_december">December</string>
+
+    <string name="month_jan_short">Jan</string>
+    <string name="month_feb_short">Feb</string>
+    <string name="month_mar_short">Mar</string>
+    <string name="month_apr_short">Apr</string>
+    <string name="month_may_short">May</string>
+    <string name="month_jun_short">Jun</string>
+    <string name="month_jul_short">Jul</string>
+    <string name="month_aug_short">Aug</string>
+    <string name="month_sep_short">Sep</string>
+    <string name="month_oct_short">Oct</string>
+    <string name="month_nov_short">Nov</string>
+    <string name="month_dec_short">Dec</string>
+    <string name="date_format_short">%1$s %2$s, %3$s</string>
+
+    <string name="freq_once_daily">Once Daily</string>
+    <string name="freq_twice_daily">Twice Daily</string>
+    <string name="freq_thrice_daily">Thrice Daily</string>
+    <string name="freq_every_four_hours">Every 4 Hours</string>
+    <string name="freq_every_six_hours">Every 6 Hours</string>
+    <string name="freq_weekly">Weekly</string>
+    <string name="freq_monthly">Monthly</string>
+    <string name="freq_as_needed">As Needed</string>
+
+    <string name="med_type_tablet">Tablet</string>
+    <string name="med_type_capsule">Capsule</string>
+    <string name="med_type_syrup">Syrup</string>
+    <string name="med_type_injection">Injection</string>
+    <string name="med_type_drops">Drops</string>
+    <string name="med_type_inhaler">Inhaler</string>
+    <string name="med_type_powder">Powder</string>
+    <string name="med_type_spray">Spray</string>
+    <string name="med_type_cream">Cream</string>
+    <string name="med_type_gel">Gel</string>
+    <string name="med_type_ointment">Ointment</string>
+    <string name="med_type_patch">Patch</string>
+    <string name="med_type_other">Other</string>
+
+    <string name="timeslot_all">All</string>
+    <string name="timeslot_morning">Morning</string>
+    <string name="timeslot_noon_afternoon">Noon/Afternoon</string>
+    <string name="timeslot_evening">Evening</string>
+    <string name="timeslot_night">Night</string>
+
+    <!-- Medication Details Screen Section -->
+    <string name="details_tab_info">Info</string>
+    <string name="details_tab_image">Image</string>
+    <string name="details_label_name">Name</string>
+    <string name="details_label_dosage">Dosage</string>
+    <string name="details_label_frequency">Frequency</string>
+    <string name="details_label_start_date">Start Date</string>
+    <string name="details_label_end_date">End Date</string>
+    <string name="details_label_type">Type</string>
+    <string name="details_label_notes">Notes</string>
+    <string name="details_value_not_set">Not set</string>
+    <string name="details_title_other_information">Other Information</string>
+    <string name="details_label_hospital_name">Hospital Name</string>
+    <string name="details_label_doctor_name">Doctor Name</string>
+    <string name="details_label_hospital_address">Hospital Address</string>
+    <string name="image_tab_prescription">Prescription</string>
+    <string name="image_tab_medication">Medication</string>
+    <string name="image_tab_prescription_description">Prescription Image</string>
+    <string name="image_tab_medication_description">Medication Image</string>
+    <string name="btn_upload">Upload</string>
+    <string name="btn_delete">Delete</string>
+    <string name="no_photo_added_yet">You haven't added a photo yet</string>
+    <string name="no_photo_available">No photo available</string>
+    
+    <!-- Delete Confirmation Dialog -->
+    <string name="delete_prescription_photo_dialog_title">Delete Prescription Photo?</string>
+    <string name="delete_prescription_photo_dialog_message">Are you sure you want to delete this prescription photo? This action can't be undone.</string>
+    <string name="delete_medication_photo_dialog_title">Delete Medication Photo?</string>
+    <string name="delete_medication_photo_dialog_message">Are you sure you want to delete this medication photo? This action can't be undone.</string>
+    <string name="delete_medication_dialog_title">Delete %1$s?</string>
+    <plurals name="delete_medication_dialog_message">
+        <item quantity="one">Are you sure you want to delete this medication? This action can't be undone.</item>
+        <item quantity="other">Are you sure you want to delete these medications? This action can't be undone.</item>
+    </plurals>
+    <string name="action_undo">Undo</string>
+
+    <string name="leave_form_title">Leave Form?</string>
+    <string name="leave_form_message">Are you sure you want to leave this form? Your changes will be lost.</string>
+    <string name="cancel">Cancel</string>
+    <string name="leave">Leave</string>
+
+    <plurals name="medication_deleted_success">
+        <item quantity="one">Medication deleted successfully.</item>
+        <item quantity="other">Medications deleted successfully.</item>
+    </plurals>
+
+    <plurals name="failed_to_delete_medication">
+        <item quantity="one">Failed to delete medication.</item>
+        <item quantity="other">Failed to delete medications.</item>
+    </plurals>
+
+    <!-- Reminders disabled dialog -->
+    <plurals name="this_medication">
+        <item quantity="one">this medication</item>
+        <item quantity="other">these %1$d medications</item>
+    </plurals>
+    <string name="reminders_disabled_title">Reminders Disabled</string>
+    <string name="reminders_disabled_message">Reminders require notification access. You must enable it in Settings. Save %1$s without alerts?</string>
+    <string name="save_anyway">Save Anyway</string>
+
+    <!-- Settings Screen -->
+    <string name="settings_title">Settings</string>
+    <string name="settings_section_appearance">Appearance</string>
+    <string name="settings_appearance_system">System</string>
+    <string name="settings_appearance_dark">Dark</string>
+    <string name="settings_appearance_light">Light</string>
+    <string name="settings_section_contrast">Contrast</string>
+    <string name="settings_contrast_normal">Normal</string>
+    <string name="settings_contrast_medium">Medium</string>
+    <string name="settings_contrast_high">High</string>
+    <string name="settings_section_language">Language</string>
+    <string name="language_english">English</string>
+    <string name="language_bangla">বাংলা</string>
+    <string name="language_german">Deutsch</string>
+    <string name="settings_section_ai_analysis_language">AI Analysis Language</string>
+    <string name="language_match_prescription">Match Prescription</string>
+    <string name="language_device_language">Device Language</string>
+
+    <!-- Icon content descriptions for accessibility -->
+    <string name="icon_app_description">App pill logo</string>
+    <string name="icon_search_description">Search</string>
+    <string name="icon_no_photo_description">No photo added yet</string>
+    <string name="icon_reminder_active_description">Reminder notification</string>
+    <string name="icon_toggle_dropdown_menu_description">Toggle dropdown menu</string>
+    <string name="icon_reminder_bell_description">Reminder Bell</string>
+    <string name="selected">Selected</string>
+
+    <!-- Icon content descriptions for actionable icons (inside buttons/FABs) -->
+    <string name="btn_settings_description">Open settings</string>
+    <string name="btn_clear_search_text_description">Clear search text</string>
+    <string name="btn_filter_description">Filter medications</string>
+    <string name="btn_select_filter_option_description">Select filter option</string>
+    <string name="btn_add_medication_description">Add medication</string>
+    <string name="btn_add_medication_menu_description">Add medication menu</string>
+    <string name="fab_expand_medication_menu_description">Expand medication menu</string>
+    <string name="fab_close_medication_menu_description">Close medication menu</string>
+    <string name="btn_take_prescription_photo_description">Take photo of prescription</string>
+    <string name="btn_upload_prescription_image_description">Upload prescription image</string>
+    <string name="btn_enter_medication_details_description">Enter medication details</string>
+    <string name="btn_back_description">Go back</string>
+    <string name="btn_previous_medication_description">Previous medication</string>
+    <string name="btn_next_medication_description">Next medication</string>
+    <string name="btn_more_options_description">More options</string>
+    <string name="btn_edit_medication_description">Edit medication</string>
+    <string name="btn_delete_medication_description">Delete medication</string>
+    <string name="btn_delete_prescription_image_description">Delete prescription image</string>
+    <string name="btn_delete_medication_image_description">Delete medication image</string>
+    <string name="btn_upload_medication_image_description">Upload medication image</string>
+    <string name="btn_switch_system_theme_description">Switch to system theme</string>
+    <string name="btn_switch_dark_theme_description">Switch to dark theme</string>
+    <string name="btn_switch_light_theme_description">Switch to light theme</string>
+    <string name="btn_play_reminder_tone_description">Play reminder tone</string>
+    <string name="btn_stop_reminder_tone_description">Stop playing reminder tone</string>
+    <string name="btn_mute_reminder_tone_description">Mute reminder tone</string>
+    <string name="btn_back_to_home_description">Back to home</string>
+    <string name="btn_select_all_description">Select All Medication</string>
+    <string name="btn_deselect_all_description">Unselect All Medication</string>
+    
+    <!-- AI Prescription Scan Messages -->
+    <string name="ai_prescription_scan_message_1">Extracting Medicine Information...</string>
+    <string name="ai_prescription_scan_message_2">Analyzing prescription details...</string>
+    <string name="ai_prescription_scan_message_3">This is taking longer than usual...</string>
+    <string name="ai_prescription_scan_message_4">Almost there, finalizing the details...</string>
+
+    <!-- Error messages -->
+    <string name="error_disk_full">Storage is full. Please free up some space to continue.</string>
+    <string name="error_unknown">An unexpected error occurred. Please try again.</string>
+    <string name="error_request_timeout">The server took too long to respond. Please try again later.</string>
+    <string name="error_no_internet">Couldn't connect to the server. Please check your internet connection.</string>
+    <string name="error_too_many_requests">Too many requests. Please try again later.</string>
+    <string name="error_serialization">Failed to parse data. Please try again.</string>
+    
+    <string name="failed_to_load">Failed to load</string>
+    <string name="failed_to_load_medication">Failed to load medication</string>
+    <string name="failed_to_load_reminder_details">Couldn't load reminder details</string>
+
+    <string name="error_failed_save_image">Failed to save image.</string>
+    <string name="msg_prescription_detected">Prescription detected. Please review the extracted details.</string>
+    <string name="error_image_blurry">The image is blurry or unclear. Please try a different image.</string>
+    <string name="error_not_a_prescription">The image does not appear to be a prescription.</string>
+    <string name="error_analysis_failed">Something went wrong while analyzing the prescription. Please try again.</string>
+</resources>
