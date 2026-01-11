@@ -312,7 +312,7 @@ fun MedicationListScreen(
                         }
                         
                         if (!state.isSelectionMode) {
-                            if (getPlatformType() == PlatformType.ANDROID) {
+                            if (getPlatformType() == PlatformType.IOS) {
                                 TooltipBox(
                                     positionProvider = TooltipDefaults.rememberTooltipPositionProvider(TooltipAnchorPosition.Above),
                                     tooltip = {
