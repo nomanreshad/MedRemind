@@ -26,6 +26,8 @@ MedRemind is a Medication Reminder application built as a Kotlin Multiplatform p
   </video>
 </div>
 
+https://github.com/nomanreshad/MedRemind/releases/download/v1.0-demo/MedRemind-App-Demo-Video.mp4
+
 ## Features
 - **Medication Management:** Add, view, edit, and delete medications with support for name, dosage, frequency, type, notes, doctor/hospital info, images, and date range.
 - **Smart Reminders:** Schedules reminders based on user-defined medication frequency and time, with platform-specific alarm/notification integration for both Android and iOS.
