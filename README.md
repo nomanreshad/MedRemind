@@ -1,3 +1,5 @@
+![License](https://img.shields.io/badge/License-MIT-green.svg)
+
 # MedRemind Project Summary
 
 <img width="200" height="200" alt="AppIcon~ios-marketing" src="https://github.com/user-attachments/assets/047d143b-4456-4c6d-aa9b-fe8f300c7a72" />
