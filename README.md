@@ -1,18 +1,12 @@
 # MedRemind Project Summary
 
-<div style="display: flex; justify-content: center; align-items: center;">
-  <img
-    src="iosApp/iosApp/Assets.xcassets/AppIcon.appiconset/AppIcon~ios-marketing.png"
-    alt="MedRemind App Icon"
-    width="200" height="200"
-    style="border-radius: 40px;"
-  >
-</div>
+<img width="200" height="200" alt="AppIcon~ios-marketing" src="https://github.com/user-attachments/assets/047d143b-4456-4c6d-aa9b-fe8f300c7a72" />
 
 ## Overview
 MedRemind is a Medication Reminder application built as a Kotlin Multiplatform project targeting Android and iOS platforms. It uses Compose Multiplatform for the shared UI, enabling a largely shared codebase across both platforms. The app is **offline-first**, meaning all core functionality works without an internet connection. An internet connection is only required for AI-powered prescription scanning features. The app helps users manage their medications, track reminders for doses, and offers rich features such as dose scheduling, reminders, prescription and medication image management, and theme customization.
 
 ## Demo Video
+https://github.com/user-attachments/assets/055ed58f-1931-44c8-8be3-e06d2426856a
 
 ## Features
 - **Medication Management:** Add, view, edit, and delete medications with support for name, dosage, frequency, type, notes, doctor/hospital info, images, and date range.
