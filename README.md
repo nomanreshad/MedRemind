@@ -141,4 +141,4 @@ To use AI-powered prescription scanning, you must provide an API key and model n
 - **Shared State & Dependency Injection:** Uses Koin for multiplatform DI.
 - **UI/UX:** Adopts Material Design 3 with support for responsive layouts, accessibility, and themed assets/icons.
 - **Persistence:** Data is stored with platform-native databases via Kotlin Multiplatform libraries.
-- **Alarm & Notification Handling:** Each platform has its own scheduler and receiver—alarms are scheduled natively per OS, but presented in a unified way to users.
+- **Alarm & Notification Handling:** Each platform has its own scheduler and receiver. Alarms are scheduled natively per OS, but presented in a unified way to users.
