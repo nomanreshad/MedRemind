@@ -42,8 +42,8 @@ Key Shared Modules:
 - `presentation/` — UI screens (Add/Edit, List, Detail, Reminder, Settings) and state management.
 
 Platform-specific (`androidMain`, `iosMain`):
-- Android: Implements notification/alarms (`PlatformReminderScheduler.android.kt`), storage interfaces, entrypoint (`MainActivity.kt`), and resource linking.
-- iOS: Binds native iOS features (`PlatformReminderScheduler.ios.kt`), provides native interface hooks (`MainViewController.kt`).
+- Android: Implements notification/alarms (`PlatformReminderScheduler.android.kt`), storage interfaces, entrypoint (`MainActivity.kt`),resource linking etc.
+- iOS: Binds native iOS features (`PlatformReminderScheduler.ios.kt`), provides native interface hooks (`MainViewController.kt`), etc.
 
 The iOS app code (`iosApp/`) wraps the shared Compose code in a SwiftUI application shell.
 
