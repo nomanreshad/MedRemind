@@ -87,7 +87,7 @@ To use AI-powered prescription scanning, you must provide an API key and model n
   - `composeApp/src/commonMain/kotlin/com/nomanhassan/medremind/di/Modules.kt`
 - Edit the following line to set your custom model:
    ```kotlin
-   AIPrescriptionDataExtractor(
+   AiPrescriptionDataExtractor(
        modelName = "your-model-name-here",
        apiKey = get(AI_API_KEY_QUALIFIER)
    )
